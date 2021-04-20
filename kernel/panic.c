@@ -35,11 +35,6 @@
 #define PANIC_BLINK_SPD 18
 
 #ifdef VENDOR_EDIT
-// Kun.Hu@TECH.BSP.Stability.PHOENIX_PROJECT 2019/06/11, Add for phoenix project
-#include "../drivers/soc/oppo/oppo_phoenix/oppo_phoenix.h"
-static int kernel_panic_happened = 0;
-#endif
-#ifdef VENDOR_EDIT
 /* Bin.Li@EXP.BSP.bootloader.bootflow, 2017/05/24, Add for interface reboot reason */
 int is_kernel_panic = 0;
 #endif
